@@ -18,3 +18,5 @@ steps:
     - 'us-central1'
 images:
 - 'us-central1-docker.pkg.dev/cts-reddyarr/test/hello/hello-test:$COMMIT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
